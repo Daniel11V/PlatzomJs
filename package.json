@@ -1,5 +1,5 @@
 {
-  "name": "@username/platzom",
+  "name": "@daniel1v/platzom",
   "version": "0.1.0",
   "description": "Traductor de ideoma Platzom",
   "main": "dist/src/platzom.js",

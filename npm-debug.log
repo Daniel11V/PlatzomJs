@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\node.exe',
+1 verbose cli   'C:\\Program Files\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '--access=public' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\paris\\Desktop\\platzom',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\paris\AppData\Roaming\npm-cache\@username\platzom\0.1.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\paris\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle @username/platzom@0.1.0~prepublish: @username/platzom@0.1.0
+11 silly lifecycle @username/platzom@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\paris\\AppData\\Roaming\\npm-cache\\@username\\platzom\\0.1.0\\package.tgz',
+12 verbose tar pack   'C:\\Users\\paris\\Desktop\\platzom' ]
+13 verbose tarball C:\Users\paris\AppData\Roaming\npm-cache\@username\platzom\0.1.0\package.tgz
+14 verbose folder C:\Users\paris\Desktop\platzom
+15 verbose addLocalTarball adding from inside cache C:\Users\paris\AppData\Roaming\npm-cache\@username\platzom\0.1.0\package.tgz
+16 verbose correctMkdir C:\Users\paris\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd @username/platzom@0.1.0
+18 verbose afterAdd C:\Users\paris\AppData\Roaming\npm-cache\@username\platzom\0.1.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\paris\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\paris\AppData\Roaming\npm-cache\@username\platzom\0.1.0\package\package.json written
+21 silly publish { name: '@username/platzom',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'Traductor de ideoma Platzom',
+21 silly publish   main: 'dist/src/platzom.js',
+21 silly publish   scripts: { build: 'babel src/platzom.js -d dist', test: 'mocha' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/Daniel11V/PlatzomJs.git' },
+21 silly publish   keywords: [ 'platzom', 'platzi', 'funcamentos', 'javascript', 'js' ],
+21 silly publish   author: { name: 'Daniel Vinet' },
+21 silly publish   license: 'MIT',
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-cli': '^6.24.1',
+21 silly publish      'babel-preset-env': '^1.4.0',
+21 silly publish      chai: '^3.5.0',
+21 silly publish      mocha: '^3.3.0' },
+21 silly publish   readme: '# Platzom\r\n\r\nPlatzom es un idioma inventado para el [Curso de Fundamentos de JavaScript](https://platzi.com/js) de [Platzi](https://platzi.com), el mejor lugar de educación online\r\n\r\n## Descripción del idioma\r\n\r\n- Si la palabra termina en "ar" se eliminan estos dos caracteres.\r\n- Si la palabra inicia con z se le agrega al final "pe".\r\n- Si tiene 10 o mas letras se le agrega "-" en la mitad de la palabra.\r\n- Si la palabra original es capicua se escribe cada dos letras una mayuscula.\r\n\r\n## Instalación\r\n\r\n```\r\nnpm install platzom\r\n```\r\n\r\n## Uso\r\n\r\n```\r\nimport platzom from \'platzom\'\r\nplatzom("Programar") //Program\r\nplatzom("Zorro")  //Zorrope\r\nplatzom("Zarpar") //Zarppe\r\nplatzom("abecedario") //abece-dario\r\nplatzom("sometemos") //SoMeTeMoS\r\n```\r\n\r\n## Creditos\r\n- [Daniel Vinet](https://github.com/Daniel11V)\r\n\r\n## Licencia\r\n\r\n[MIT](https://opensource.org/licenses/MIT)\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '0a6e5d669ddb33cfcd5002dd2343eb77d39fe5ce',
+21 silly publish   bugs: { url: 'https://github.com/Daniel11V/PlatzomJs/issues' },
+21 silly publish   homepage: 'https://github.com/Daniel11V/PlatzomJs#readme',
+21 silly publish   _id: '@username/platzom@0.1.0',
+21 silly publish   _shasum: 'c7bc3c0404bd257966d8f789708ada57f8d0a029',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @username/platzom
+24 silly mapToRegistry scope (from package name) @username
+25 verbose mapToRegistry no registry URL found in name for scope @username
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@username/platzom',
+28 silly mapToRegistry   scope: '@username',
+28 silly mapToRegistry   escapedName: '@username%2fplatzom',
+28 silly mapToRegistry   name: '@username/platzom',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@username%2fplatzom
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading C:\Users\paris\AppData\Roaming\npm-cache\@username\platzom\0.1.0\package.tgz
+32 verbose request uri https://registry.npmjs.org/@username%2fplatzom
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 12:49:04
+35 verbose request using bearer token for auth
+36 verbose request id a7d3bcf9a2f5abe8
+37 http request PUT https://registry.npmjs.org/@username%2fplatzom
+38 http 403 https://registry.npmjs.org/@username%2fplatzom
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '21',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Sat, 29 Apr 2017 15:49:01 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-gru7126-GRU',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1493480942.526541,VS0,VE404' }
+40 verbose request invalidating C:\Users\paris\AppData\Roaming\npm-cache\registry.npmjs.org\_40username_252fplatzom on PUT
+41 error publish Failed PUT 403
+42 verbose stack Error: Forbidden : @username/platzom
+42 verbose stack     at makeError (C:\Program Files\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+42 verbose stack     at Request._callback (C:\Program Files\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+42 verbose stack     at Request.self.callback (C:\Program Files\node_modules\npm\node_modules\request\request.js:187:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (C:\Program Files\node_modules\npm\node_modules\request\request.js:1048:10)
+42 verbose stack     at emitOne (events.js:96:13)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\node_modules\npm\node_modules\request\request.js:969:12)
+43 verbose statusCode 403
+44 verbose pkgid @username/platzom
+45 verbose cwd C:\Users\paris\Desktop\platzom
+46 error Windows_NT 6.2.9200
+47 error argv "C:\\Program Files\\node.exe" "C:\\Program Files\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--access=public"
+48 error node v6.10.2
+49 error npm  v3.10.10
+50 error code E403
+51 error Forbidden : @username/platzom
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
