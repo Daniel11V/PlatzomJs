@@ -1,0 +1,29 @@
+{
+  "name": "@username/platzom",
+  "version": "0.1.0",
+  "description": "Traductor de ideoma Platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel11V/PlatzomJs.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "funcamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Daniel Vinet",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
